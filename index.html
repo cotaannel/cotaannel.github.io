@@ -1,29 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Annel Cota</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annel Cota | Cloud Projects</title>
+
 </head>
+
 <body>
+  <div class="container">
 
-  <h1>Annel Cota</h1>
-  <p>Cloud Engineer | Cloud Projects</p>
-  <a href="resume.pdf">Resume</a>
+    <h1>Annel Cota</h1>
 
-  <h2>Projects</h2>
-  
-  
-  <a href="http://163.192.210.14/">OCI Project:</a>
-  <br>
-  <p>Designed and deployed a highly available web application in Oracle Cloud Infrastructure using a public load balancer, private application servers, and a bastion host.</p>
+    <p class="subtitle">
+      Cloud Engineer | Cloud Projects
+    </p>
 
-  <a href="#">AWS Project</a>
-  <br>
+    <div class="nav-links">
+      <a href="resume.pdf" target="_blank">Resume</a>
+      <a href="https://github.com/cotaannel" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/annel-cota/" target="_blank">LinkedIn</a>
+    </div>
 
-  <a href="#">Azure Project</a>
-  <br>
+    <hr>
 
-  <a href="#">GCP Project</a>
+    <h2>Projects</h2>
 
+    <div class="project-card">
+      <h3>OCI Highly Available Web Application</h3>
+
+      <p>
+        Designed and deployed a highly available web application in Oracle Cloud
+        Infrastructure using a public load balancer, private NGINX web servers,
+        and a bastion host.
+      </p>
+
+      <a class="project-link" href="http://163.192.210.14/">
+        View Project →
+      </a>
+    </div>
+
+    <div class="project-card">
+      <h3>AWS Serverless Visitor Counter</h3>
+
+      <p>
+        Built a serverless AWS application that hosts a static portfolio website
+        in Amazon S3, delivers content globally through CloudFront, and tracks
+        page visits using API Gateway, Lambda, and DynamoDB.
+      </p>
+
+      <a class="project-link" href="aws-project.html">
+        View Project →
+      </a>
+    </div>
+
+    <div class="project-card">
+      <h3>Azure Entra ID Federation</h3>
+
+      <p>
+        Integrated Microsoft Entra ID with Oracle Cloud Infrastructure using SAML-based federation to enable single sign-on and centralized authentication.
+      </p>
+
+      <a class="project-link" href="azure-project.html">
+        View Project →
+      </a>
+    </div>
+
+    <div class="footer">
+      © 2026 Annel Cota
+    </div>
+
+  </div>
 </body>
-
 </html>
