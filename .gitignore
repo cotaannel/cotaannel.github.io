@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Environment files
+.env
+.env.*
+
+# Keys / certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Credential files
+*credentials*.json
+service-account.json
+service_account.json
+
+# Editor settings
+.vscode/
